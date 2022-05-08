@@ -1,0 +1,24 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 168px;
+    width: 90vw;
+    max-width: 536px;
+
+    padding: 16px;
+    background: linear-gradient(258.11deg, #2C2C2C 3.39%, #060606 135.55%);
+    border-radius: 15px;
+}
+
+.total {
+    color: grey;
+    font-size: 18px;
+}
+
+.counter {
+    font-size: 24px;
+}
