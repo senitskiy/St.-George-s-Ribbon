@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import ribbon from './images/ribbon.png';
 import Button from "./components/button/Button";
 import WebFont from 'webfontloader';
 import {useEffect} from "react";
 import Card from "./components/card/Card";
+import React from 'react';
+import Web3 from 'web3'
 
 function App() {
 
