@@ -1,10 +1,10 @@
 import './Button.css';
 import React from 'react';
 
-export default function Button({ children }) {
+export default function Button({ children, ...other }) {
     return(
-        <div className='Button'>
-                {children}
+        <div className='Button' {...other}>
+            {children}
         </div>
     );
 }
